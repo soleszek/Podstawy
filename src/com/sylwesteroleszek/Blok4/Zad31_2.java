@@ -2,33 +2,32 @@ package com.sylwesteroleszek.Blok4;
 
 import java.util.Scanner;
 
-public class Zad31 {
+public class Zad31_2 {
     public static void main(String[] args) {
         Scanner skaner = new Scanner(System.in);
+        int liczba = 0;
+        boolean czyPierwsza = true;
 
         while (true) {
             System.out.println("Podaj liczbę, żeby sprawdzić czy jest pierwsza: ");
-
-            boolean czyPierwsza = true;
-
-            int liczba = skaner.nextInt();
-            int temp = 0;
+            liczba = skaner.nextInt();
 
             for (int i = 2; i <= liczba / 2; i++) {
 
-                temp = liczba % i;
-
-                if (temp == 0) {
+                if (liczba % i == 0) {
                     czyPierwsza = false;
                     break;
                 }
+
+                czyPierwsza = true;
             }
 
             if (czyPierwsza) {
-                System.out.println("Liczba jest pierwsza.");
+                System.out.println("Liczba " + liczba + " jest pierwsza.");
             } else {
-                System.out.println("Liczba nie jest pierwsza.");
+                System.out.println("Liczba " + liczba + " nie jest pierwsza.");
             }
+
         }
     }
 }

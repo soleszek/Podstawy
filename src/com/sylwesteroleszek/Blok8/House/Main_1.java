@@ -1,4 +1,4 @@
-package com.sylwesteroleszek.Blok8;
+package com.sylwesteroleszek.Blok8.House;
 
 public class Main_1 {
     public static void main(String[] args) {

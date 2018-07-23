@@ -1,12 +1,10 @@
-package com.sylwesteroleszek.Blok8;
+package com.sylwesteroleszek.Blok8.House;
 
-public class Room {
+public class Room_1 {
     private int area;
     private int height;
 
-    public Room() {};
-
-    public Room(int area, int height) {
+    public Room_1(int area, int height) {
         this.area = area;
         this.height = height;
     }

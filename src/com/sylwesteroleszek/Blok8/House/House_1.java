@@ -1,4 +1,4 @@
-package com.sylwesteroleszek.Blok8;
+package com.sylwesteroleszek.Blok8.House;
 
 public class House_1 {
     private String address;

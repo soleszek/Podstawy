@@ -29,7 +29,7 @@ public class Lock3Rolki {
                 }
             }
         } else {
-            System.out.println("Nie ma rolki o takim numerze, istnieją tylk " + currentCode.length + " rolki.");
+            System.out.println("Nie ma rolki o takim numerze, istnieją tylko " + currentCode.length + " rolki.");
         }
     }
 
